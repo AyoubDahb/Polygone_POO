@@ -1,7 +1,7 @@
 package td2;
 
-public class PointNullException extends RuntimeException {
-    public PointNullException(String message) {
+public class NullException extends Exception {
+    public NullException(String message) {
         super(message);
     }
 }
